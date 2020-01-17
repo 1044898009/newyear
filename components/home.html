@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <meta name="robots" content="all" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>博傲10万元新年现金红包大放送</title>
+    <script type="text/javascript" src="../js/publick/rem.js"></script>
+</head>
+
+<body>
+    
+</body>
+
+</html>
+<script type="text/javascript" src="../js/publick/jquery-3.0.0.min.js"></script>
+<script type="text/javascript" src="../js/publick/vconsole.min.js"></script>
+<script type="text/javascript" src="../js/publick/global.js"></script>
+<script type="text/javascript" src="../js/publick/jssdk.js"></script>
+<script type="text/javascript" src="../js/publick/getUserInfo.js"></script>
+<script type="text/javascript">
+    if (isFn(localStorage.getItem("cun"))) {
+        localStorage.clear();
+        localStorage.setItem("cun","cun");
+    }
+
+     function getQueryString(name) {
+        // console.log("WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW")
+        // console.log(window.location.href)
+        var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i')
+        var r = window.location.search.substr(1).match(reg)
+        if (r != null) return unescape(r[2]);
+        return null
+     }
+
+     var yqxsid = getQueryString("yqxsid");
+    //  if (yqxsid != null && yqxsid.toString().length > 0) {
+         localStorage.setItem("yqxsid",yqxsid)
+    //  }
+     if (isFn(localStorage.getItem("ba_wxid"))) {
+         getUserInfo(function(){
+             location.href="../components/index.html?yqxsid="+yqxsid
+         })
+     }else{
+             location.href="../components/index.html?yqxsid="+yqxsid
+     }
+</script>

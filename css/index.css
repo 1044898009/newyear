@@ -1,0 +1,512 @@
+/*地步状态栏*/
+.btn_url {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0.82rem;
+    padding-top: 0.16rem;
+    background: white;
+    padding-bottom: 0.1rem;
+    color: #bcbfd2;
+}
+
+.btn_url>li {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+
+.list_page {
+    width: 100%;
+    /* height: 100%; */
+    text-align: center;
+    display: none;
+    background-image: url("../img/background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-color: red;
+}
+
+.list_page:nth-child(2) {
+    display: block;
+}
+
+.btn_url>li:nth-child(2) {
+    color: rgb(227, 41, 33);
+}
+
+dt {
+    margin-bottom: 0.06rem;
+    position: relative;
+}
+
+img.index_img:nth-child(1) {
+    width: 0.41rem;
+}
+
+img.index_img:nth-child(2) {
+    width: 0.43rem;
+}
+
+img.index_img:nth-child(3) {
+    width: 0.4rem;
+}
+
+.time {
+    text-align: center;
+    font-size: 0.26rem;
+    margin-top: 3.06rem;
+    color: rgb(255, 255, 255);
+    line-height: 0.36rem;
+    font-weight: bold;
+
+}
+
+.banner_di {
+    /* margin-top: 1.84rem; */
+    width: 7.1rem;
+    height: 3.04rem;
+    margin: 1.07rem auto 0.6rem;
+    border-radius: 0.08rem;
+    background: white;
+    overflow: hidden;
+}
+
+.banner_con {
+    margin: 0.21rem auto 0;
+    width: 6.74rem;
+    height: 2.64rem;
+}
+
+img.banner_img {
+    width: 100%;
+}
+
+img.text_img {
+    width: 100%;
+}
+
+span.text_Tu {
+    width: 0.39rem;
+    height: 0.31rem;
+    display: inline-block;
+}
+
+span.text_Tu:nth-child(2) {
+    margin-left: 0.26rem;
+}
+
+.video_title {
+    color: white;
+}
+
+span.text_text {
+    font-size: 0.36rem;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 0.26rem;
+}
+
+.little_title {
+    color: white;
+    margin: 0.3rem auto 0.4rem;
+    font-size: 0.3rem;
+}
+
+.video_content {
+    width: 7.1rem;
+    height: 4.1rem;
+    border-radius: 0.08rem;
+    background: white;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 1.72rem;
+}
+
+.video_con {
+    width: 6.74rem;
+    height: 3.7rem;
+    margin: 0.2rem auto;
+    position: relative;
+}
+
+img.video_img {
+    width: 100%;
+}
+
+.btn_con {
+    width: 0.9rem;
+    height: 0.9rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.47rem;
+    top: 50%;
+    margin-top: -0.47rem;
+    /* background: rgba(0, 0, 0, .8); */
+    /* border-radius: 0.1rem; */
+}
+
+img.bf_btn {
+    width: 100%;
+    /* height: 0.4rem; */
+    /* margin-top: 0.1rem; */
+}
+
+.lqtx {
+    width: 7.1rem;
+    height: 3.47rem;
+    margin: 1.17rem auto 0.6rem;
+    overflow: hidden;
+    background: url("../img/tx_background.png");
+    background-size: 100% 100%;
+}
+
+.ljtx {
+    float: left;
+    margin: 0 auto 0 auto;
+    display: contents;
+}
+
+.ljlq {
+    float: left;
+}
+
+.ljtx_title,
+.ljlq_title {
+    margin: 0.4rem auto 0.2rem;
+    font-size: 0.36rem;
+    color: rgb(106, 106, 106);
+}
+
+span.money {
+    font-size: 1rem;
+    color: rgb(227, 41, 33);
+    margin-right: 0.1rem;
+}
+
+.ljtx_btn {
+    margin: 0 auto 0;
+    width: 4.04rem;
+    height: 0.85rem;
+    text-align: center;
+    line-height: 0.84rem;
+    background-image: linear-gradient(to right, #FC7F7B, #E23C51);
+    color: white;
+    border-radius: 0.43rem;
+    font-size: 0.36rem;
+}
+
+.ljtx_money {
+    font-size: 0.24rem;
+    color: rgb(227, 41, 33);
+    margin-top: 0;
+}
+
+.ljlq_money {
+    font-size: 0.24rem;
+    color: rgb(227, 41, 33);
+}
+
+.ljlq_btn {
+    margin: 0.2rem auto 0;
+    width: 2.66rem;
+    height: 0.84rem;
+    text-align: center;
+    line-height: 0.84rem;
+    background-image: linear-gradient(to right, rgb(251, 127, 122), rgb(226, 60, 80));
+    color: white;
+    border-radius: 0.43rem;
+    font-size: 0.36rem;
+}
+
+.hbjl_title {
+    font-size: 0.34rem;
+    color: white;
+    font-weight: bold;
+}
+
+.hbjl_content {
+    margin: 0.4rem auto 1.57rem;
+    width: 7.1rem;
+    height: 3.48rem;
+    background: white;
+    border-radius: 0.1rem;
+    padding: 0.21rem 0;
+    overflow: scroll;
+    font-size: 0.28rem;
+}
+
+.hbjl_con {
+    overflow: hidden;
+    line-height: 0.58rem;
+}
+
+.hbjl_time {
+    float: left;
+    margin-left: 0.6rem;
+    width: 1.6rem;
+    color: rgb(153, 153, 153);
+    font-size: 0.28rem;
+}
+
+.hbjl_wenben {
+    float: left;
+    margin: 0 1rem;
+    width: 1.3rem;
+    font-size: 0.28rem;
+}
+
+.hbjl_je {
+    float: left;
+}
+
+
+/*完善信息*/
+
+.phoneInpBox {
+    position: relative;
+    position: relative;
+    width: 5.2rem;
+    margin: 0 auto 0.2rem;
+    /* border-bottom: 0.01rem solid rgb(217, 226, 233); */
+}
+
+.phoneInpBox img {
+    width: 0.21rem;
+    height: 0.37rem;
+    margin-right: 0.24rem
+}
+
+.phoneInp {
+    width: 86%;
+    height: 0.8rem;
+    border-radius: 0.15rem;
+    font-size: 0.3rem;
+}
+
+.yzmInp {
+    width: 43%;
+    height: 0.8rem;
+    border-radius: 0.15rem;
+    font-size: 0.3rem;
+}
+
+.sendYzm {
+    height: 0.85rem;
+    border-radius: 0.15rem;
+    text-align: center;
+    line-height: 0.85rem;
+    color: rgb(226, 60, 81);
+    /* font-size: 0.26rem; */
+    cursor: pointer;
+    font-size: 0.3rem;
+}
+
+
+.BTN,
+.gksp_BTN,
+.txcg_BTN,
+.one_tx_BTN,
+.two_tx_BTN,
+.fxhy_BTN,
+.guiz_BTN {
+    width: 4.04rem;
+    height: 0.86rem;
+    background: linear-gradient(to right, #fc7f7b, #e23b50);
+    color: #fff;
+    text-align: center;
+    line-height: 0.86rem;
+    margin: 0 auto;
+    border-radius: 0.1rem;
+    font-size: 0.36rem;
+    letter-spacing: 2px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.yzmBox {
+    margin-bottom: 0.8rem;
+    /* border-bottom: 0.01rem solid rgb(217, 226, 233); */
+    width: 5.2rem;
+    margin: 0 auto 0.4rem;
+    font-size: 0.3rem;
+}
+
+.yzmBox img {
+    width: 0.25rem;
+    height: 0.32rem;
+    margin-right: 0.2rem;
+}
+
+.wsxx_tan,
+.gksp_tan,
+.txcg_tan,
+.one_tx_tan,
+.two_tx_tan,
+.fxhy_tan,
+.huodong_tan,
+.guiz_tan {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, .3);
+    display: none;
+    z-index: 9999999999999999999999999999999999999999999999999999 !important;
+}
+
+.wsxx_con {
+    width: 6.4rem;
+    height: 7.3rem;
+    margin: 30% auto 0.4rem;
+    background-image: url("../img/wsxx_background.png");
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.wsxx_title {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.4rem;
+    color: rgb(39, 39, 39);
+}
+
+.wsxx_little {
+    text-align: center;
+    margin: 0.27rem 0 0.5rem;
+    font-size: 0.28rem;
+    color: rgb(102, 102, 102);
+}
+
+img.wsxx_close_img,
+img.gksp_close_img,
+img.txcg_close_img,
+img.one_tx_close_img,
+img.two_tx_close_img,
+img.fxhy_close_img,
+img.huodong_close_img,
+img.guiz_close_img {
+    width: 100%;
+}
+
+.wsxx_close,
+.gksp_close,
+.txcg_close,
+.one_tx_close,
+.two_tx_close,
+.two_tx_close,
+.fxhy_close,
+.huodong_close,
+.guiz_close {
+    width: 0.64rem;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+/*观看完整视频*/
+
+.gksp_con,
+.txcg_con,
+.one_tx_con,
+.two_tx_con,
+.fxhy_con,
+.huodong_con,
+.guiz_con {
+    width: 6.4rem;
+    height: 5.4rem;
+    margin: 40% auto 0.4rem;
+    background-image: url(../img/wsxx_background.png);
+    background-size: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.gksp_text,
+.txcg_text,
+.one_tx_text,
+.two_tx_text,
+.fxhy_text,
+.huodong_text,
+.guiz_text {
+    text-align: center;
+    line-height: 0.51rem;
+    margin-top: 2.4rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.32rem;
+    color: rgb(51, 51, 51);
+}
+
+.fxhy_text {
+    margin-top: 2rem;
+    margin-bottom: 0.4rem;
+}
+
+.sy,
+.ze,
+.hc,
+.red {
+    color: #E42922;
+}
+
+video#video_id {
+    width: 100%;
+    z-index: 99;
+}
+
+img.img_nav {
+    width: 0.41rem;
+}
+
+.huodong_text {
+    width: 80%;
+    margin: 2.4rem auto 0;
+}
+
+span.cu {
+    margin-top: 0.1rem;
+    display: inline-block;
+    font-size: 0.28rem;
+}
+
+.guiz_text {
+    margin-top: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.ljtx_tel {
+    margin-top: 0.8rem;
+}
+
+.guiz_con {
+    height: 6.4rem;
+}
+
+.guiz_title {
+    font-size: 0.4rem;
+    color: rgb(227, 61, 81);
+    font-weight: bold;
+    line-height: 0.6rem;
+    margin-bottom: 0.2rem;
+}
+
+.guiz_time {
+    width: 3.8rem;
+    height: 0.54rem;
+    text-align: center;
+    margin: 0 auto 0.3rem;
+    line-height: 0.54rem;
+    border-radius: 0.24rem;
+    background: #ffe3e2;
+    font-size: 0.24rem;
+    color: rgb(227, 61, 81);
+}
+
+.guiz_content {
+    font-size: 0.3rem;
+    color: rgb(102, 102, 102);
+}

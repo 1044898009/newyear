@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>清除缓存</title>
+	<script type="text/javascript" src="../js/publick/rem.js"></script>
+	<style type="text/css">
+		.btn{
+			width: 5rem;
+			height:2rem;
+			line-height: 2rem;
+			margin: 0 auto;
+			font-size: 0.4rem;
+			border-radius: 0.2rem;
+			border: 0.02rem solid gray;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="btn">清除微信缓存</div>
+</body>
+</html>
+<script type="text/javascript">
+	var btn = document.querySelector(".btn");
+	btn.onclick=function(){
+		localStorage.clear();
+		alert("清除成功");
+	}
+</script>
